@@ -30,33 +30,33 @@
 
 #### PUSHING CHANGES
 ###### commit changes
-`git diff`
-`git status`
-`git add .`
+`git diff`  
+`git status`  
+`git add .`  
 `git commit -m "CommitMessage"`
 ###### then push
-`git pull origin <branch>`
+`git pull origin <branch>`  
 `git push origin <branch>`
 
 #### CREATE A BRANCH FOR DESIRED FEATURE
-`git branch <branchname>`
-`git checkout <branchname>`
-`git add . `
+`git branch <branchname>`  
+`git checkout <branchname>`  
+`git add . `  
 `git comment -m "commitMessage"`
 
 #### PUSH BRANCH TO REMOTE
-`git push -u origin <branchname>`
+`git push -u origin <branchname>`  
 `git branch -a`
 
 #### MERGE A BRANCH
-`git checkout master`
-`git pull origin master`
-`git branch --merged`
-`git merge <branchname>`
-`git push origin master`
+`git checkout master`  
+`git pull origin master`  
+`git branch --merged`  
+`git merge <branchname>`  
+`git push origin master`  
 
 #### DELETING A BRANCH
-`git branch --merged`
-`git branch -d <branchname>`
-`git branch -a`
-`git push origin --delete <branchname.`
+`git branch --merged`  
+`git branch -d <branchname>`  
+`git branch -a`  
+`git push origin --delete <branchname.`  
