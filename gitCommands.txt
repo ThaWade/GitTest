@@ -29,10 +29,29 @@ git push -u <remote> <branch>   #pushes changes to remote
 
 git branch -a ;displays all branches, -l ;Dislplays local branches, -r ;Displays remote branches
 
-#########################--Create a branch for desired feature - https://youtu.be/HVsySz-h9r4?t=1272 --#########################
-git branch <nameOfBranch>  #Create a branch locally
-git checkout <nameOfBranch>   #changes working branch
+#########################--CREATE_A_BRANCH_FOR_DESIRED_FEATURE--#########################
+#########################--https://youtu.be/HVsySz-h9r4?t=1272--#########################
+git branch <branchname>  #Create a branch locally
+git checkout <branchname>   #changes working branch
 
+#########################--AFTER_COMMIT_PUSH_BRANCH_TO_REMOTE--#########################
+#########################--https://youtu.be/HVsySz-h9r4?t=1377--#########################
+git push -u origin <branchname>
+
+#########################--MERGE_A_BRANCH--#########################
+#########################--https://youtu.be/HVsySz-h9r4?t=1484--#########################
+git checkout master
+git pull origin master
+git branch --merged  #Displays merged branches
+git merge <branchname>
+git push origin master
+
+#########################--DELETING_A_BRANCH--#########################
+#########################--https://youtu.be/HVsySz-h9r4?t=1577--#########################
+git branch --merged
+git branch -d <branchname>
+git branch -a
+git push origin --delete <branchname>
 
 #########################--REVERTING_COMMITS--#########################
 git reset --soft HEAD^  #Undo the act of committing, leaving everything else intact
@@ -40,3 +59,5 @@ git reset HEAD^  #undo the act of committing and everything you've staged, but l
 git reset --hard HEAD^  #completely undo it, throwing away all uncommitted changes, resetting everything to the previous commit
 
 git reset --hard origin/<your-branch-name>
+
+
