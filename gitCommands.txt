@@ -38,3 +38,5 @@ git checkout <nameOfBranch>   #changes working branch
 git reset --soft HEAD^  #Undo the act of committing, leaving everything else intact
 git reset HEAD^  #undo the act of committing and everything you've staged, but leave the work tree (your files intact):
 git reset --hard HEAD^  #completely undo it, throwing away all uncommitted changes, resetting everything to the previous commit
+
+git reset --hard origin/<your-branch-name>
