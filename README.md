@@ -15,8 +15,8 @@
 `git reset`
 
 #### REVERTING LOCAL UNPUSHED COMMITS
-`git reset --hard origin/<your-branch-name>  #COMPLETE REMOVAL`
-`git reset --soft origin/<your-branch-name>  #ONLY REMOVES THE COMMIT NOT THE FILES`
+`git reset --hard origin/<your-branch-name>  #COMPLETE REMOVAL`  
+`git reset --soft origin/<your-branch-name>  #ONLY REMOVES THE COMMIT NOT THE FILES`  
 
 #### OUR FIST COMMIT
 `git commit -m "First Commit"`
