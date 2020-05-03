@@ -1,0 +1,56 @@
+
+#########################--CLONING_A_REPO--#########################
+git clone <url>  #clones and creates remote-tracking branches for each branch
+git branch -l  #See available branches after cloning
+git checkout <branchname>  #Switch to a particular branch after cloning
+
+git clone -b <branchname> <url>  #clone and checkout a specific branch
+
+
+######################### #########################
+git pull   #get all changes from the remote and merges them while
+
+git fetch   #gets all changes and does NOT merge
+
+
+
+git diff   #displays differences in git tracked files
+
+#########################--GETTING_READY_TO_PUBLISH_CHANGES--#########################
+git status   #displays local changes if any
+
+git add <-A> or <.> or <filename>   #adds all changes to staging area.
+
+git reset <file>   #removes from staging area before commit leaving blank will remove all adds
+
+git commit -m "message"   #commits all changes locally
+
+git push -u <remote> <branch>   #pushes changes to remote
+
+git branch -a ;displays all branches, -l ;Dislplays local branches, -r ;Displays remote branches
+
+#########################--Create a branch for desired feature - https://youtu.be/HVsySz-h9r4?t=1272 --#########################
+git branch <nameOfBranch>  #Create a branch locally
+git checkout <nameOfBranch>   #changes working branch
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
